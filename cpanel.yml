@@ -6,3 +6,5 @@ deployment:
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R vendor $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp composer.lock $DEPLOYPATH
