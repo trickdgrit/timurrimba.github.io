@@ -4,4 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/n1473180/public_html/portofolioboot5/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp _R img $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R vendor $DEPLOYPATH
